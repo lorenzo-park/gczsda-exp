@@ -1,0 +1,6 @@
+# @package _global_
+model_name: timm
+
+backbone_name: mobilenet_v2
+
+root_tgt: null

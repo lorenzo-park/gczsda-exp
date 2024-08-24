@@ -1,0 +1,23 @@
+defaults:
+  - config: timm
+
+lr: 1e-3
+optimizer: adam
+batch_size: 32
+max_epochs: 50
+grad_accum: 1
+es_patience: null
+
+task: nexmon
+img_size: 256
+root: /shared/lorenzo/data-tubuki-cache/exp1
+fold_no: 0
+num_workers: 4
+channels: 3
+output_num: 10
+
+logger: true
+seed: 42
+project: zolup
+checkpoint_dir: /root/dezsda/checkpoints
+gpus: 1

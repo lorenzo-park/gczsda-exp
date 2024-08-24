@@ -1,0 +1,10 @@
+# @package _global_
+model_name: adda
+
+backbone_name: mobilenet_v2
+hidden_dim: 500
+
+root_tgt: null
+root_tgt_train: null
+
+pretrained: null

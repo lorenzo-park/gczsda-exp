@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=2
+python run.py gpus=1 config=zsgcada task=digit backbone_name=lenet max_epochs=5 root=/shared/lorenzo/mnist-zsda/MNIST_G root_tgt_train=/shared/lorenzo/mnist-zsda/FashionMNIST_C root_tgt=/shared/lorenzo/mnist-zsda/MNIST_C lr=1e-4 optimizer=adam batch_size=64 pretrained="/root/dezsda/checkpoints/timm-lenet-epoch\=03-task\=digit-val_loss\=0.0297.ckpt" lambda_idt=1.0 lambda_sem_idt=1.0 num_blocks=9 hidden_dim_dsc=32

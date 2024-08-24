@@ -1,0 +1,4 @@
+bst_path: /root/BSDS500/BSDS500/data/images/train
+data_path: /root/dezsda/data
+dataset: MNIST # FashionMNIST, EMNIST or NIST
+domain: E

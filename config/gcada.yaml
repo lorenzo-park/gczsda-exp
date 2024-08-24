@@ -1,0 +1,25 @@
+# @package _global_
+model_name: gcada
+backbone_name: mobilenet_v2
+
+root_tgt: null
+root_tgt_train: null
+
+num_blocks: 9
+hidden_dim_dsc: 64
+
+lambda_real: 1.0
+lambda_fake: 1.0
+lambda_gc: 1.0
+lambda_idt: 1.0
+lambda_sem: 0.0
+
+transformation: "rotate"
+
+beta1: 0.5
+
+pretrained: null
+
+lambda_sem_idt: 0.0
+fix_block_up: false
+sem_idt_per_epoch: 1

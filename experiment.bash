@@ -1,0 +1,3 @@
+export CUDA_VISIBLE_DEVICES=0,1,2
+# python run.py config=adda root=/shared/lorenzo/data-tubuki-cache/exp1 root_tgt=/shared/lorenzo/data-tubuki-cache/exp2 pretrained="/root/dezsda/checkpoints/timm-mobilenetv2_100-epoch\=03-task\=nexmon-val_loss\=0.4160.ckpt"
+python run.py config=cycada lr=1e-4 batch_size=32 num_blocks=9 channels=1 root=/shared/lorenzo/data-tubuki-cache/exp1 root_tgt=/shared/lorenzo/data-tubuki-cache/exp2

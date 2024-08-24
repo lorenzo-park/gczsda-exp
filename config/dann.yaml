@@ -1,0 +1,17 @@
+# @package _global_
+model_name: dann
+
+backbone_name: mobilenet_v2
+hidden_dim: 500
+
+root_tgt: null
+root_tgt_train: null
+
+w_enc: 1.0
+w_cls: 1.0
+w_dsc: 1.0
+alpha: 10
+gamma: 10
+beta: 0.75
+
+lr_schedule: true

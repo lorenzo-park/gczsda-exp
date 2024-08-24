@@ -1,0 +1,31 @@
+# @package _global_
+model_name: zsgcada
+backbone_name: mobilenet_v2
+
+root_tgt: null
+root_tgt_train: null
+
+num_blocks: 9
+hidden_dim_dsc: 64
+
+lambda_real: 1.0
+lambda_fake: 1.0
+lambda_enc: 1.0
+lambda_gc: 1.0
+lambda_idt: 0.0
+lambda_sem: 0.0
+
+transformation: "rotate"
+
+beta1: 0.5
+
+pretrained: null
+
+lambda_sem_idt: 0.0
+fix_block_up: false
+sem_idt_per_epoch: 1
+
+lr_enc_multi: 1.0
+lr_dsc_multi: 1.0
+lambda_rec: 1.0
+lambda_cross: 1.0

@@ -1,0 +1,9 @@
+outputs/
+__pycache__/
+temp.ipynb
+checkpoints/
+.vscode/
+*.ckpt
+*.png
+*.jpg
+data/

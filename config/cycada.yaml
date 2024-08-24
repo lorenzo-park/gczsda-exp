@@ -1,0 +1,29 @@
+# @package _global_
+model_name: cycada
+backbone_name: mobilenet_v2
+
+root_tgt: null
+root_tgt_train: null
+
+num_blocks: 9
+hidden_dim_dsc: 64
+
+lambda_real: 1.0
+lambda_fake: 1.0
+lambda_sem: 1.0
+lambda_cycle: 10.0
+lambda_idt: 1.0
+lambda_std: 0.0
+lambda_cls_tgt: 0.0
+
+beta1: 0.5
+
+use_neighbor_consistency: false
+eps: 1e-3
+
+cycle_consistency_type: "geometric"
+
+use_progressive_mixup: false
+mixup_thres: 0.5
+
+pretrained: null
